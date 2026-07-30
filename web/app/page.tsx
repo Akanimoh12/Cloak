@@ -22,7 +22,7 @@ export default function Landing() {
     <main>
       <Nav />
 
-      <section className="grid-bg px-6 py-32 text-center md:py-40">
+      <section className="grid-bg px-6 pb-24 pt-16 text-center md:pb-28 md:pt-20">
         <p className="badge-accent mx-auto mb-6 inline-block text-sm font-semibold tracking-wide">
           BUILT ON IEXEC NOX × UNISWAP V3
         </p>
