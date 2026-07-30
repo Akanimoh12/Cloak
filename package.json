@@ -1,0 +1,15 @@
+{
+  "name": "cloak",
+  "private": true,
+  "description": "CLOAK — confidential strategy vault on iExec Nox × Uniswap V3 (WTF Hackathon)",
+  "scripts": {
+    "web": "pnpm --filter @cloak/web dev",
+    "web:build": "pnpm --filter @cloak/web build",
+    "contracts:compile": "pnpm --filter @cloak/contracts compile",
+    "contracts:test": "pnpm --filter @cloak/contracts test"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "packageManager": "pnpm@10.33.1"
+}

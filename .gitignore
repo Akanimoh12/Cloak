@@ -1,0 +1,24 @@
+# deps
+node_modules/
+
+# env & secrets
+.env
+.env.*
+!.env.example
+
+# hardhat
+contracts/artifacts/
+contracts/cache/
+contracts/coverage/
+contracts/typechain-types/
+contracts/deployments/*.local.json
+
+# next.js
+web/.next/
+web/out/
+web/next-env.d.ts
+
+# misc
+.DS_Store
+*.log
+.vercel
