@@ -2,7 +2,7 @@
 
 **The vault that shows its returns, never its hand.**
 
-🎥 [Demo video](https://youtu.be/REPLACE_ME) · 🌐 [Live app](https://cloak-vault.vercel.app) · 📄 [Architecture](docs/CLOAK-ARCHITECTURE.md)
+🎥 [Demo video](https://www.loom.com/share/d9509875888f4031bc6b663f7809ce94) · 🌐 [Live app](https://cloak-application.vercel.app/) · 📄 [Architecture](docs/CLOAK-ARCHITECTURE.md)
 
 Cloak is an on-chain vault where performance is public and the strategy is cryptographically private. LPs see NAV, TVL, and share price on-chain like any vault. The manager's rebalance intents are encrypted in the browser, aggregated **while still encrypted** inside a TEE (iExec Nox), and only the net batch delta is revealed at epoch close — then settled as one swap on **unmodified Uniswap V3** (ETH Sepolia).
 
