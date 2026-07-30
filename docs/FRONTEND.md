@@ -10,7 +10,7 @@ Next.js 15 (App Router) in [`web/`](../web). wagmi v2 + viem v2 + RainbowKit for
 | `/app` | LP dashboard. Approve + deposit tUSDC, withdraw shares, see your position and the epoch ticker. |
 | `/manage` | Manager console. Enter a signed delta, watch it encrypt in the browser via the Nox Handle Gateway, submit the handle on-chain, and compare "what the chain sees" (opaque bytes) with your gasless decrypted view. |
 | `/audit` | Auditor view. Attempts to decrypt the strategy handle; succeeds only if the vault owner granted your wallet via the on-chain ACL. |
-| `/api/keeper` | Cron endpoint. Closes the epoch, publicly decrypts the net delta, calls `executeRebalance`. Scheduled every 30 min via `vercel.json`. |
+| `/api/keeper` | Cron endpoint. Closes the epoch, publicly decrypts the net delta, calls `executeRebalance`. Scheduled daily via `vercel.json` (Vercel Hobby allows one run per day); trigger it manually with curl for on-demand settlement. |
 
 ## Key modules
 
