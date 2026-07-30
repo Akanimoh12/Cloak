@@ -1,0 +1,23 @@
+{
+  "name": "@cloak/contracts",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "compile": "hardhat compile",
+    "test": "hardhat test",
+    "deploy:sepolia": "hardhat run scripts/03-deploy-cloak.ts --network sepolia"
+  },
+  "devDependencies": {
+    "@iexec-nox/handle": "0.1.0-beta.13",
+    "@iexec-nox/nox-hardhat-plugin": "^0.1.0",
+    "@nomicfoundation/hardhat-toolbox-viem": "^5.0.7",
+    "hardhat": "^3.11.1",
+    "typescript": "~5.8.0",
+    "viem": "^2.55.8"
+  },
+  "dependencies": {
+    "@iexec-nox/nox-protocol-contracts": "^0.2.4",
+    "@openzeppelin/contracts": "^5.4.0",
+    "@uniswap/v3-periphery": "^1.4.4"
+  }
+}
