@@ -1,0 +1,8 @@
+{
+  "testUSDC": "0x565cbe7d87042f8bb80cc0aa754063d73a369414",
+  "pool": "0x99D4A2d48b010BaeA7924953B5bd2a76569fb2b7",
+  "liquidityTokenId": "see-tx-0x174b616bfd4358df2a5fc4dabaedc2793c4617be8cb5a7682b349d79d3f2ce03",
+  "cloakVault": "0x5471bab4fc78a946cdc3142d852e54cbd83c181e",
+  "manager": "0x9bcf302cfcb64406b557342c2715e85ac62a4693",
+  "keeper": "0x9bcf302cfcb64406b557342c2715e85ac62a4693"
+}
